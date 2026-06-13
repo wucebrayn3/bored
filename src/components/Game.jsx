@@ -9,7 +9,7 @@ function getGridCols(n) {
   return Math.ceil(n / Math.floor(sqrt));
 }
 
-const stages = [4, 6, 9, 16, 25]
+const stages = [4, 9, 16, 25]
 
 export default function Game() {
   const navigate = useNavigate();

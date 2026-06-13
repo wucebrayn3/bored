@@ -14,7 +14,7 @@
     max-width: 400px;
     margin: 24px;
     display: grid;
-    gap: 8px;
+    gap: 10px;
     padding: 12px;
     border-radius: 16px;
     background: #a9d6e5;
@@ -41,12 +41,13 @@
     box-shadow: inset 4px 4px 8px #8bb4c3,
                 inset -4px -4px 8px #c7f8ff;
     color: #2a5a3a;
+    background-color: #48d6fd;
 }
 
 .btn.highlight {
     box-shadow: 4px 4px 8px #7aa8b8,
                 -4px -4px 8px #b8ecf8;
-    background: #8fc8d8;
+    background: #48d6fd;
     color: #1a4a3a;
 }
 
