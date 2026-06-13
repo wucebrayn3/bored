@@ -1,0 +1,27 @@
+.menu_body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a9d6e5;
+}
+
+.menu_btn {
+    border: none;
+    border-radius: 10px;
+    background: #a9d6e5;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3d6a7a;
+    box-shadow: 4px 4px 8px #8bb4c3,
+                -4px -4px 8px #c7f8ff;
+    padding: 10px 5px;
+    transition: all 0.2s;
+}
+
+.menu_btn:hover {
+    box-shadow: inset 4px 4px 8px #8bb4c3,
+                inset -4px -4px 8px #c7f8ff;
+    transform: scale(1.05);
+}
