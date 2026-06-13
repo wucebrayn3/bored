@@ -14,7 +14,7 @@ function App() {
             <Route path="/game" element={<Game />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </GameProvider>
   );
 }
