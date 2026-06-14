@@ -161,12 +161,10 @@ export default function Game() {
     const next = playerIndex + 1
     setPlayerIndex(next)
     if (next === sequence.length) {
-      if (level === 10 && stage < stages.length - 1) {
+      if (level % 10 === 0 && stage < stages.length - 1) {
         setStage(prev => prev + 1)
-        setLevel(1)
-      } else {
-        setLevel(prev => prev + 1)
       }
+      setLevel(prev => prev + 1)
       extendSequence()
     }
   }
